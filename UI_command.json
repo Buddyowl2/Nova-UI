@@ -1,0 +1,30 @@
+{
+  "name": "Nova UI Extension",
+  "version": "1.1.0",
+  "description": "Adds UI components to Nova: text boxes, images, panels, and draggable panels.",
+  "author": "Buddyowl2",
+  "commands": {
+    "nova:import_image": {
+      "description": "Imports an image into the viewport.",
+      "usage": "nova:import_image(\"path/to/image.png\")",
+      "args": ["image_path"]
+    },
+    "nova:create_textbox": {
+      "description": "Creates a textbox in the viewport.",
+      "usage": "nova:create_textbox(\"Text\", x, y, width, height)",
+      "args": ["text", "x", "y", "width", "height"]
+    },
+    "nova:create_panel": {
+      "description": "Creates a panel container in the viewport.",
+      "usage": "nova:create_panel(x, y, width, height, color)",
+      "args": ["x", "y", "width", "height", "color"]
+    },
+    "nova:create_draggable_panel": {
+      "description": "Creates a draggable panel in the viewport.",
+      "usage": "nova:create_draggable_panel(x, y, width, height, color)",
+      "args": ["x", "y", "width", "height", "color"]
+    }
+  },
+  "dependencies": [],
+  "notes": "This extension is optional. Core Nova commands remain fully functional without it."
+}
